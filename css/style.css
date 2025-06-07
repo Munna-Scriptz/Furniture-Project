@@ -1,0 +1,528 @@
+/* ==================Fonts Section====================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ==================Common css Staring====================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* ==================Common css Ending====================== */
+
+
+/* ==================Css Roots Staring====================== */
+:root {
+    --Montserrat: "Montserrat", sans-serif;
+    --primaryColor: #333333;
+    --brandColor: #054C73;
+}
+
+/* ==================Css Roots Ending====================== */
+
+
+/* ==================NavBar Staring====================== */
+nav {
+    margin-top: 43px;
+    margin-bottom: 38px;
+}
+
+.navBar ul {
+    gap: 67px;
+}
+
+.navBar ul li a {
+    position: relative;
+    padding: 0px !important;
+    font-size: 14px;
+    font-family: var(--Montserrat);
+    font-weight: 600;
+    color: #333333 !important;
+}
+
+.navBar ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #054C73;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transition: all 300ms ease-in-out;
+}
+
+.navBar ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+/* ==================NavBar Ending====================== */
+
+/* ==================Banner Section Starting=================== */
+#banner {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 155px;
+    padding-bottom: 151px;
+}
+
+.main_card {
+    max-width: 643px;
+    padding: 37px 58px 41px 39px;
+    background-color: #DFE9F4;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.main_card p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--Montserrat);
+    color: var(--primaryColor);
+    letter-spacing: 3px;
+}
+
+.main_card h1 {
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    max-width: 421px;
+    color: var(--brandColor);
+    line-height: 65px;
+    padding: 20px 0 !important;
+}
+
+.main_card p:nth-child(3) {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--Montserrat);
+    margin-bottom: 30px !important;
+}
+
+.main_card a {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    padding: 25px 72px;
+    background-color: #054C73;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.main_card a:hover {
+    transform: scale(1.1);
+    background-color: #00a6ff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* ==================Banner Section Ending====================== */
+
+/* ===================Delivery Section Starting=================== */
+#delivery {
+    padding-top: 46px;
+    padding-bottom: 49px;
+    background-color: #F2F5FF;
+}
+
+.all_support {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.all_support .delivery_image img {
+    max-width: 84px;
+}
+
+.delivery_text {
+    color: #333333;
+}
+
+.time_image img {
+    width: 60px;
+}
+
+.shield_image img {
+    width: 55px;
+}
+
+/* =====================Delivery Section Ending=================== */
+
+/* ==================inspiration Section Starting================= */
+#inspiration {
+    padding-top: 60px !important;
+}
+
+.inspiration_text {
+    text-align: center;
+}
+
+.inspiration_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: #333333;
+    margin-bottom: 13px !important;
+}
+
+.inspiration_text p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: #666666;
+}
+.inspiration_row{
+    display: flex;
+    gap: 30px;
+}
+.collection_image {
+    margin-top: 94px;
+}
+
+.collection_image img {
+    transition: all 300ms ease-in-out;
+}
+
+.collection_image img:hover {
+    transform: translateY(-79px);
+}
+
+/* ===================inspiration Section Ending================ */
+
+/* =====================Beautify Section Starting================= */
+#Beautify {
+    padding-top: 117px;
+    padding-bottom: 65px;
+    background-color: #F2F5FF;
+}
+
+.beautify_text {
+
+    margin-top: 295px;
+}
+
+.beautify_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    color: var(--primaryColor);
+    margin-bottom: 20px !important;
+}
+
+.beautify_text p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    line-height: 39px;
+    color: #666666;
+    max-width: 489px;
+    margin-bottom: 30px !important;
+}
+
+.beautify_text a {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    padding: 24px 57px;
+    background-color: #054C73;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.beautify_text a:hover {
+    transform: scale(1.1);
+    background-color: #00a6ff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.beautify_image img {
+    width: 568px;
+    margin-left: auto;
+}
+
+
+/* =====================Beautify Section Ending=================== */
+
+
+/* =====================Range Section Starting=================== */
+#range {
+    padding-top: 55px !important;
+}
+
+.range_image {
+    margin-top: 50px;
+}
+
+.range_caption h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px !important;
+}
+
+/* -----------Range Image Hover effect start----------- */
+.range_image {
+    position: relative;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+
+}
+
+.range_image img {
+    transition: all 300ms ease-in-out;
+}
+
+.range_image:hover img {
+    transform: scale(1.08);
+}
+
+.range_image:hover .overly_image {
+    opacity: 1;
+    z-index: 999;
+}
+
+.overly_image {
+    transition: all 300ms ease-in-out;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    opacity: 0;
+    z-index: 999;
+
+}
+
+.overly_image i {
+    transition: all 0.3s ease-in-out;
+}
+
+.overly_image i:hover {
+    transform: scale(1.2);
+    color: #00a6ff;
+}
+
+.overly_image button {
+    background-color: transparent;
+    border: none;
+    margin-top: 15px;
+    margin-right: 15px;
+    gap: 15px;
+}
+
+.overly_image button i {
+    font-size: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(197, 197, 197);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* -----------Range Image Hover effect ENd----------- */
+
+/* =====================Range Section Ending=================== */
+
+/* =====================Works Section Starting=================== */
+#works {
+    padding-top: 121px;
+}
+
+.works_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+}
+
+.works_text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    margin-top: 20px !important;
+}
+
+.works_image {
+    margin-top: 50px;
+}
+
+.works_image img {
+    position: relative;
+}
+
+.work_caption {
+    text-align: center;
+    margin-top: 66px;
+}
+
+.work_round {
+    position: absolute;
+    transform: translate(178px, -29px);
+    outline: 15px solid #fff;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work_round h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: var(--Montserrat);
+}
+
+/* =====================Works Section Ending=================== */
+
+/* =====================Submit Section Starting=================== */
+#submit {
+    margin-top: 198px;
+    background-color: #F2F5FF;
+    padding-top: 59px;
+    padding-bottom: 61px;
+}
+
+.submit_text h2 {
+    margin-top: 10px !important;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.submit_text p {
+    width: 514px;
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    line-height: 39px;
+}
+
+.input_box {
+    width: 486px;
+    height: 70px;
+    border: 1px solid #011c42;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.input_box input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 21px;
+    color: #011c42;
+}
+
+.input_box button {
+    width: 153px;
+    height: 100%;
+    outline: none;
+    background-color: #054C73;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    outline: none;
+    border: 1px solid #054C73;
+}
+
+.input_box input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    color: rgb(179, 187, 198);
+}
+
+/* =====================Submit Section Ending=================== */
+
+/* =====================Footer Starting=================== */
+footer {
+    background-color: #03344F;
+    padding-top: 49px;
+    padding-bottom: 89px;
+    color: #FFFFFF;
+}
+
+.footer_all {
+    display: flex;
+}
+
+.footer_text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    margin-bottom: 34px !important;
+}
+
+.footer_text p {
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Montserrat);
+    line-height: 35px;
+    margin-bottom: 21px !important;
+}
+
+.footer_text h2:nth-child(3) {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--Montserrat);
+    margin-bottom: 34px !important;
+}
+
+.footer_img img {
+    width: 175px;
+    gap: 21px !important;
+}
+
+.footer_img h2 {
+    margin-bottom: 34px !important;
+}
+
+.footer_img {
+    margin-left: 23px !important;
+}
+
+.footer_all_image {
+    display: flex;
+    gap: 21px;
+}
+/* =====================Footer Ending=================== */
