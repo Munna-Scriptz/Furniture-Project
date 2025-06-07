@@ -192,10 +192,12 @@ nav {
     font-family: var(--Montserrat);
     color: #666666;
 }
-.inspiration_row{
+
+.inspiration_row {
     display: flex;
     gap: 30px;
 }
+
 .collection_image {
     margin-top: 94px;
 }
@@ -526,9 +528,10 @@ footer {
     gap: 21px;
 }
 
-.footer_two_img{
+.footer_two_img {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 /* =====================Footer Ending=================== */

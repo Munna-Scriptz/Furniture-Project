@@ -80,9 +80,10 @@
 
     /* ===================Delivery Section Ending=================== */
     /* ==================inspiration Section Starting================= */
-    .inspiration_row{
+    .inspiration_row {
         display: block;
     }
+
     .collection_image {
         margin-top: 30px;
     }
@@ -316,10 +317,12 @@
     .collection_image {
         margin-top: 50px;
     }
-    .inspiration_row{
+
+    .inspiration_row {
         display: flex;
         gap: 20px;
     }
+
     /* ==================inspiration Section Ending================= */
 
     /* =====================Beautify Section Starting================= */
@@ -449,6 +452,7 @@
     /* =====================Footer Ending=================== */
 
 }
+
 /* ===================SM device end======================= */
 
 /* ===================MD device Start======================= */
@@ -526,22 +530,28 @@
 
     /* ===================Delivery Section Starting=================== */
     #delivery {
-	padding-top: 40px;
-	padding-bottom: 25px;
-}
-    #delivery .row{
+        padding-top: 40px;
+        padding-bottom: 25px;
+        background-color: #F2F5FF;
+    }
+
+    #delivery .row {
         display: flex;
         flex-wrap: nowrap;
     }
-    #delivery .col-lg-4{
+
+    #delivery .col-lg-4 {
         width: 33%;
     }
+
     .all_support .delivery_image img {
         width: 45px;
     }
+
     .all_support .time_image img {
         width: 45px;
     }
+
     .all_support .shield_image img {
         width: 40px;
     }
@@ -549,18 +559,22 @@
     .all_support {
         margin-bottom: 25px;
     }
-    .delivery_text h2{
+
+    .delivery_text h2 {
         font-size: 21px;
     }
-    .delivery_text p{
+
+    .delivery_text p {
         font-size: 11px;
     }
+
     /* ===================Delivery Section Ending=================== */
     /* ==================inspiration Section Starting================= */
-    .inspiration_row{
+    .inspiration_row {
         display: flex;
         gap: 20px;
     }
+
     .collection_image {
         margin-top: 30px;
     }
@@ -580,24 +594,29 @@
     #Beautify {
         padding-top: 100px;
     }
-    #Beautify .row{
+
+    #Beautify .row {
         display: flex;
         flex-wrap: nowrap;
     }
-    #Beautify .row .col-lg-6{
+
+    #Beautify .row .col-lg-6 {
         width: 50%;
     }
+
     .beautify_text {
         margin-top: 100px;
     }
+
     .beautify_text h2 {
         font-size: 35px;
     }
+
     .beautify_text p {
-	font-size: 16px;
-	line-height: 30px;
-	width: 100%;
-}
+        font-size: 16px;
+        line-height: 30px;
+        width: 100%;
+    }
 
     .beautify_text a {
         font-size: 14px;
@@ -620,21 +639,26 @@
     .inspiration_text p {
         font-size: 17px;
     }
-    .rangeRow{
+
+    .rangeRow {
         display: flex;
         align-items: center;
     }
-    .rangeRow .col-lg-4{
+
+    .rangeRow .col-lg-4 {
         width: 33%;
     }
+
     .overly_image button i {
-	font-size: 20px;
-	padding: 7px;
+        font-size: 20px;
+        padding: 7px;
     }
+
     .overly_image button {
-	margin-top: 8px;
-	margin-right: 10px;
-}
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+
     /* =====================Range Section Ending=================== */
 
     /* =====================Works Section Starting=================== */
@@ -723,6 +747,7 @@
     /* =====================Footer Ending=================== */
 
 }
+
 /* ===================MD device End======================= */
 
 /* ===================LG device Start======================= */
@@ -748,6 +773,7 @@
         border-radius: 35px;
 
     }
+
     /* ==================Banner Section Ending=================== */
 
     /* ===================Delivery Section Starting=================== */
@@ -770,13 +796,16 @@
     .collection_image {
         margin-top: 50px;
     }
+
     .collection_image img {
         width: 278px;
     }
+
     .inspiration_row {
         display: flex;
         gap: 1px;
     }
+
     /* ==================inspiration Section Ending================= */
 
     /* =====================Beautify Section Starting================= */
@@ -785,9 +814,11 @@
     .beautify_text {
         margin-top: 160px;
     }
+
     .beautify_text h2 {
         font-size: 35px;
     }
+
     .beautify_text p {
         font-size: 18px;
         line-height: 34px;
@@ -824,6 +855,7 @@
         width: 65px;
         height: 65px;
     }
+
     /* =====================Works Section Starting=================== */
 
     /* =====================Submit Section Starting=================== */
@@ -903,6 +935,7 @@
     /* =====================Footer Ending=================== */
 
 }
+
 /* ===================LG device End======================= */
 
 /* ===================XL device Start======================= */
@@ -928,6 +961,7 @@
         border-radius: 35px;
 
     }
+
     /* ==================Banner Section Ending=================== */
 
     /* ===================Delivery Section Starting=================== */
@@ -959,9 +993,11 @@
     .beautify_text {
         margin-top: 160px;
     }
+
     .beautify_text h2 {
         font-size: 35px;
     }
+
     .beautify_text p {
         font-size: 18px;
         line-height: 34px;
@@ -998,6 +1034,7 @@
         width: 70px;
         height: 70px;
     }
+
     /* =====================Works Section Starting=================== */
 
     /* =====================Submit Section Starting=================== */
@@ -1024,6 +1061,5 @@
     /* =====================Footer Ending=================== */
 
 }
+
 /* ===================XL device End======================= */
-
-
