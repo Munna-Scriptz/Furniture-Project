@@ -1,3 +1,988 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
 
+    /* ==================NavBar Staring====================== */
+
+    .navBar a img {
+        width: 100px;
+    }
+
+    nav {
+        margin-bottom: 17px !important;
+        margin-top: 17px !important;
+    }
+
+    .navbar-toggler i {
+        font-size: 35px;
+    }
+
+    #navbarSupportedContent ul li a {
+        text-align: center;
+    }
+
+    #navbarSupportedContent ul li {
+        margin: 0px !important;
+    }
+
+    .navBar ul {
+        gap: 49px !important;
+        margin-top: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    }
+
+    .navBar ul li a::after {
+        width: 45% !important;
+        left: 82px !important;
+    }
+
+    /* ==================NavBar Ending====================== */
+
+    /* ================Banner Section Starting================= */
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .main_card {
+        width: 100%;
+    }
+
+    .main_card p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .main_card h1 {
+        font-size: 27px;
+        width: 214px;
+        line-height: 41px;
+    }
+
+    .main_card a {
+        font-size: 13px;
+        padding: 12px 40px;
+        border-radius: 13px;
+
+    }
+
+    /* ==================Banner Section Ending=================== */
+
+    /* ===================Delivery Section Starting=================== */
+
+    .all_support .delivery_image img {
+        width: 63px;
+    }
+
+    .all_support {
+        margin-bottom: 20px;
+    }
+
+    /* ===================Delivery Section Ending=================== */
+    /* ==================inspiration Section Starting================= */
+    .inspiration_row{
+        display: block;
+    }
+    .collection_image {
+        margin-top: 30px;
+    }
+
+    .collection_image img:hover {
+        transform: translateY(0px);
+    }
+
+    .collection_image {
+        margin-top: 50px;
+    }
+
+    /* ==================inspiration Section Ending================= */
+
+    /* =====================Beautify Section Starting================= */
+
+    #Beautify {
+        padding-top: 0px;
+    }
+
+    .beautify_text {
+        margin-top: 160px;
+    }
+
+    .beautify_text p {
+        font-size: 18px;
+        line-height: 28px;
+        width: 303px;
+    }
+
+    .beautify_text a {
+        font-size: 12px;
+        padding: 17px 30px;
+        margin-bottom: 37px;
+        border-radius: 10px;
+    }
+
+    /* =====================Beautify Section Ending================= */
+
+    /* =====================Range Section Starting=================== */
+    #range {
+        padding-top: 20px !important;
+    }
+
+    .inspiration_text h2 {
+        font-size: 29px;
+    }
+
+    .inspiration_text p {
+        font-size: 17px;
+    }
+
+    /* =====================Range Section Ending=================== */
+
+    /* =====================Works Section Starting=================== */
+    .work_round {
+        transform: translate(111px, -29px);
+        outline: 13px solid #fff;
+        width: 55px;
+        height: 55px;
+    }
+
+    /* =====================Works Section Starting=================== */
+
+    /* =====================Submit Section Starting=================== */
+    #submit {
+        margin-top: 60px;
+    }
+
+    .submit_text h2 {
+        font-size: 29px;
+    }
+
+    .submit_text p {
+        width: 298px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .input_box {
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+
+    .input_box button {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    /* =====================Submit Section Ending=================== */
+
+    /* =====================Footer Starting=================== */
+    footer {
+        background-color: #03344F;
+        padding-top: 49px;
+        padding-bottom: 50px;
+        color: #FFFFFF;
+    }
+
+    .footer_text p {
+        width: 270px;
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .footer_all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_img {
+        margin-left: 0px !important;
+    }
+
+    .footer_img img {
+        width: 131px;
+        gap: 21px !important;
+    }
+
+    .footer_all_image {
+        display: flex;
+        gap: 21px;
+        flex-wrap: wrap;
+    }
+
+    .footer_two_img {
+        display: flex;
+        gap: 21px;
+    }
+
+    /* =====================Footer Ending=================== */
+
+}
+
+/* ===================SM device start======================= */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ==================NavBar Staring====================== */
+
+    .navBar a img {
+        width: 120px;
+    }
+
+    nav {
+        margin-bottom: 17px !important;
+        margin-top: 17px !important;
+    }
+
+    .navbar-toggler i {
+        font-size: 32px;
+    }
+
+    #navbarSupportedContent ul li a {
+        text-align: center;
+    }
+
+    #navbarSupportedContent ul li {
+        margin: 0px !important;
+    }
+
+    .navBar ul {
+        gap: 49px !important;
+        margin-top: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    }
+
+    .navBar ul li a::after {
+        width: 38% !important;
+        left: 162px !important;
+    }
+
+    /* ==================NavBar Ending====================== */
+
+    /* ================Banner Section Starting================= */
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .main_card {
+        width: 100%;
+    }
+
+    .main_card p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .main_card h1 {
+        font-size: 27px;
+        width: 214px;
+        line-height: 41px;
+    }
+
+    .main_card a {
+        font-size: 13px;
+        padding: 12px 40px;
+        border-radius: 13px;
+
+    }
+
+    /* ==================Banner Section Ending=================== */
+
+    /* ===================Delivery Section Starting=================== */
+
+    .all_support .delivery_image img {
+        width: 63px;
+    }
+
+    .all_support {
+        margin-bottom: 25px;
+    }
+
+    /* ===================Delivery Section Ending=================== */
+    /* ==================inspiration Section Starting================= */
+
+    .collection_image {
+        margin-top: 30px;
+    }
+
+    .collection_image img:hover {
+        transform: translateY(0px);
+    }
+
+    .collection_image {
+        margin-top: 50px;
+    }
+    .inspiration_row{
+        display: flex;
+        gap: 20px;
+    }
+    /* ==================inspiration Section Ending================= */
+
+    /* =====================Beautify Section Starting================= */
+
+    #Beautify {
+        padding-top: 0px;
+    }
+
+    .beautify_text {
+        margin-top: 160px;
+    }
+
+    .beautify_text p {
+        font-size: 18px;
+        line-height: 28px;
+        width: 303px;
+    }
+
+    .beautify_text a {
+        font-size: 14px;
+        padding: 17px 30px;
+        margin-bottom: 37px;
+        border-radius: 10px;
+    }
+
+    /* =====================Beautify Section Ending================= */
+
+    /* =====================Range Section Starting=================== */
+    #range {
+        padding-top: 20px !important;
+    }
+
+    .inspiration_text h2 {
+        font-size: 29px;
+    }
+
+    .inspiration_text p {
+        font-size: 17px;
+    }
+
+    /* =====================Range Section Ending=================== */
+
+    /* =====================Works Section Starting=================== */
+    .work_round {
+        transform: translate(225px, -29px);
+        outline: 13px solid #fff;
+        width: 55px;
+        height: 55px;
+    }
+
+    /* =====================Works Section Starting=================== */
+
+    /* =====================Submit Section Starting=================== */
+    #submit {
+        margin-top: 60px;
+    }
+
+    .submit_text h2 {
+        font-size: 29px;
+    }
+
+    .submit_text p {
+        width: 298px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .input_box {
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+
+    .input_box button {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .input_box input {
+        width: 99%;
+    }
+
+    /* =====================Submit Section Ending=================== */
+
+    /* =====================Footer Starting=================== */
+    footer {
+        background-color: #03344F;
+        padding-top: 49px;
+        padding-bottom: 50px;
+        color: #FFFFFF;
+    }
+
+    .footer_text p {
+        width: 270px;
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .footer_all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_img {
+        margin-left: 0px !important;
+    }
+
+    .footer_img img {
+        width: 170px;
+        gap: 21px !important;
+    }
+
+    .footer_all_image {
+        display: flex;
+        gap: 21px;
+        flex-wrap: wrap;
+    }
+
+    .footer_two_img {
+        display: flex;
+        gap: 21px;
+    }
+
+    /* =====================Footer Ending=================== */
+
+}
+/* ===================SM device end======================= */
+
+/* ===================MD device Start======================= */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ==================NavBar Staring====================== */
+
+    .navBar a img {
+        width: 120px;
+    }
+
+    nav {
+        margin-bottom: 17px !important;
+        margin-top: 17px !important;
+    }
+
+    .navbar-toggler i {
+        font-size: 32px;
+    }
+
+    #navbarSupportedContent ul li a {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #navbarSupportedContent ul li {
+        margin: 0px !important;
+    }
+
+    .navBar ul {
+        gap: 49px !important;
+        margin-top: 40px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    }
+
+    .navBar ul li a::after {
+        width: 30% !important;
+        left: 245px !important;
+    }
+
+    /* ==================NavBar Ending====================== */
+
+    /* ================Banner Section Starting================= */
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .main_card {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main_card p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .main_card h1 {
+        font-size: 27px;
+        width: 214px;
+        line-height: 41px;
+    }
+
+    .main_card a {
+        font-size: 13px;
+        padding: 12px 40px;
+        border-radius: 13px;
+
+    }
+
+    /* ==================Banner Section Ending=================== */
+
+    /* ===================Delivery Section Starting=================== */
+
+    .all_support .delivery_image img {
+        width: 63px;
+    }
+
+    .all_support {
+        margin-bottom: 25px;
+    }
+
+    /* ===================Delivery Section Ending=================== */
+    /* ==================inspiration Section Starting================= */
+    .inspiration_row{
+        display: flex;
+        gap: 20px;
+    }
+    .collection_image {
+        margin-top: 30px;
+    }
+
+    .collection_image img:hover {
+        transform: translateY(0px);
+    }
+
+    .collection_image {
+        margin-top: 50px;
+    }
+
+    /* ==================inspiration Section Ending================= */
+
+    /* =====================Beautify Section Starting================= */
+
+    #Beautify {
+        padding-top: 0px;
+    }
+
+    .beautify_text {
+        margin-top: 160px;
+    }
+    .beautify_text h2 {
+        font-size: 35px;
+    }
+    .beautify_text p {
+        font-size: 18px;
+        line-height: 34px;
+        width: 466px;
+    }
+
+    .beautify_text a {
+        font-size: 14px;
+        padding: 17px 30px;
+        margin-bottom: 37px;
+        border-radius: 10px;
+    }
+
+    /* =====================Beautify Section Ending================= */
+
+    /* =====================Range Section Starting=================== */
+    #range {
+        padding-top: 20px !important;
+    }
+
+    .inspiration_text h2 {
+        font-size: 29px;
+    }
+
+    .inspiration_text p {
+        font-size: 17px;
+    }
+
+    /* =====================Range Section Ending=================== */
+
+    /* =====================Works Section Starting=================== */
+    .work_round {
+        transform: translate(312px, -29px);
+        width: 70px;
+        height: 70px;
+    }
+
+    /* =====================Works Section Starting=================== */
+
+    /* =====================Submit Section Starting=================== */
+    #submit {
+        margin-top: 60px;
+    }
+
+    .submit_text h2 {
+        font-size: 29px;
+    }
+
+    .submit_text p {
+        width: 298px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .input_box {
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+
+    .input_box button {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .input_box input {
+        width: 100%;
+    }
+
+    /* =====================Submit Section Ending=================== */
+
+    /* =====================Footer Starting=================== */
+    footer {
+        background-color: #03344F;
+        padding-top: 49px;
+        padding-bottom: 50px;
+        color: #FFFFFF;
+    }
+
+    .footer_text p {
+        width: 270px;
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .footer_all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_img {
+        margin-left: 0px !important;
+    }
+
+    .footer_img img {
+        width: 158px;
+        gap: 21px !important;
+    }
+
+    .footer_all_image {
+        display: flex;
+        gap: 21px;
+        flex-wrap: wrap;
+    }
+
+    .footer_two_img {
+        display: flex;
+        gap: 21px;
+    }
+
+    /* =====================Footer Ending=================== */
+
+}
+/* ===================MD device End======================= */
+
+/* ===================LG device Start======================= */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* ==================NavBar Staring====================== */
+
+    .navBar a img {
+        width: 130px;
+    }
+
+    nav {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    /* ==================NavBar Ending====================== */
+
+    /* ================Banner Section Starting================= */
+    .main_card a {
+        font-size: 13px;
+        padding: 18px 50px;
+        border-radius: 35px;
+
+    }
+    /* ==================Banner Section Ending=================== */
+
+    /* ===================Delivery Section Starting=================== */
+
+    .all_support .delivery_image img {
+        width: 63px;
+    }
+
+    /* ===================Delivery Section Ending=================== */
+    /* ==================inspiration Section Starting================= */
+
+    .collection_image {
+        margin-top: 30px;
+    }
+
+    .collection_image img:hover {
+        transform: translateY(0px);
+    }
+
+    .collection_image {
+        margin-top: 50px;
+    }
+    .collection_image img {
+        width: 278px;
+    }
+    .inspiration_row {
+        display: flex;
+        gap: 1px;
+    }
+    /* ==================inspiration Section Ending================= */
+
+    /* =====================Beautify Section Starting================= */
+
+
+    .beautify_text {
+        margin-top: 160px;
+    }
+    .beautify_text h2 {
+        font-size: 35px;
+    }
+    .beautify_text p {
+        font-size: 18px;
+        line-height: 34px;
+        width: 466px;
+    }
+
+    .beautify_text a {
+        font-size: 14px;
+        padding: 17px 30px;
+        margin-bottom: 37px;
+        border-radius: 35px;
+    }
+
+    /* =====================Beautify Section Ending================= */
+
+    /* =====================Range Section Starting=================== */
+    #range {
+        padding-top: 20px !important;
+    }
+
+    .inspiration_text h2 {
+        font-size: 29px;
+    }
+
+    .inspiration_text p {
+        font-size: 17px;
+    }
+
+    /* =====================Range Section Ending=================== */
+
+    /* =====================Works Section Starting=================== */
+    .work_round {
+        transform: translate(114px, -29px);
+        width: 65px;
+        height: 65px;
+    }
+    /* =====================Works Section Starting=================== */
+
+    /* =====================Submit Section Starting=================== */
+    #submit {
+        margin-top: 60px;
+    }
+
+    .submit_text h2 {
+        font-size: 33px;
+    }
+
+    .submit_text p {
+        width: 298px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .input_box {
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+
+    .input_box button {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .input_box input {
+        width: 100%;
+    }
+
+    /* =====================Submit Section Ending=================== */
+
+    /* =====================Footer Starting=================== */
+    footer {
+        background-color: #03344F;
+        padding-top: 49px;
+        padding-bottom: 50px;
+        color: #FFFFFF;
+    }
+
+    .footer_text p {
+        width: 270px;
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .footer_all {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_img {
+        margin-left: 0px !important;
+    }
+
+    .footer_img img {
+        width: 218px;
+        gap: 21px !important;
+    }
+
+    .footer_all_image {
+        display: flex;
+        gap: 21px;
+        flex-wrap: wrap;
+    }
+
+    .footer_two_img {
+        display: flex;
+        gap: 21px;
+    }
+
+    /* =====================Footer Ending=================== */
+
+}
+/* ===================LG device End======================= */
+
+/* ===================XL device Start======================= */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    /* ==================NavBar Staring====================== */
+
+    .navBar a img {
+        width: 130px;
+    }
+
+    nav {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    /* ==================NavBar Ending====================== */
+
+    /* ================Banner Section Starting================= */
+    .main_card a {
+        font-size: 13px;
+        padding: 18px 50px;
+        border-radius: 35px;
+
+    }
+    /* ==================Banner Section Ending=================== */
+
+    /* ===================Delivery Section Starting=================== */
+
+    .all_support .delivery_image img {
+        width: 63px;
+    }
+
+    /* ===================Delivery Section Ending=================== */
+    /* ==================inspiration Section Starting================= */
+
+    .collection_image {
+        margin-top: 30px;
+    }
+
+    .collection_image img:hover {
+        transform: translateY(0px);
+    }
+
+    .collection_image {
+        margin-top: 50px;
+    }
+
+    /* ==================inspiration Section Ending================= */
+
+    /* =====================Beautify Section Starting================= */
+
+
+    .beautify_text {
+        margin-top: 160px;
+    }
+    .beautify_text h2 {
+        font-size: 35px;
+    }
+    .beautify_text p {
+        font-size: 18px;
+        line-height: 34px;
+        width: 466px;
+    }
+
+    .beautify_text a {
+        font-size: 14px;
+        padding: 17px 30px;
+        margin-bottom: 37px;
+        border-radius: 35px;
+    }
+
+    /* =====================Beautify Section Ending================= */
+
+    /* =====================Range Section Starting=================== */
+    #range {
+        padding-top: 20px !important;
+    }
+
+    .inspiration_text h2 {
+        font-size: 29px;
+    }
+
+    .inspiration_text p {
+        font-size: 17px;
+    }
+
+    /* =====================Range Section Ending=================== */
+
+    /* =====================Works Section Starting=================== */
+    .work_round {
+        transform: translate(137px, -29px);
+        width: 70px;
+        height: 70px;
+    }
+    /* =====================Works Section Starting=================== */
+
+    /* =====================Submit Section Starting=================== */
+    #submit {
+        margin-top: 90px;
+    }
+
+
+    /* =====================Submit Section Ending=================== */
+
+    /* =====================Footer Starting=================== */
+
+    .footer_img img {
+        width: 153px;
+        gap: 21px !important;
+    }
+
+
+    .footer_two_img {
+        display: flex;
+        gap: 21px;
+    }
+
+    /* =====================Footer Ending=================== */
+
+}
+/* ===================XL device End======================= */
 
 
