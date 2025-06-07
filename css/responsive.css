@@ -525,15 +525,36 @@
     /* ==================Banner Section Ending=================== */
 
     /* ===================Delivery Section Starting=================== */
-
+    #delivery {
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+    #delivery .row{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #delivery .col-lg-4{
+        width: 33%;
+    }
     .all_support .delivery_image img {
-        width: 63px;
+        width: 45px;
+    }
+    .all_support .time_image img {
+        width: 45px;
+    }
+    .all_support .shield_image img {
+        width: 40px;
     }
 
     .all_support {
         margin-bottom: 25px;
     }
-
+    .delivery_text h2{
+        font-size: 21px;
+    }
+    .delivery_text p{
+        font-size: 11px;
+    }
     /* ===================Delivery Section Ending=================== */
     /* ==================inspiration Section Starting================= */
     .inspiration_row{
@@ -557,20 +578,26 @@
     /* =====================Beautify Section Starting================= */
 
     #Beautify {
-        padding-top: 0px;
+        padding-top: 100px;
     }
-
+    #Beautify .row{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #Beautify .row .col-lg-6{
+        width: 50%;
+    }
     .beautify_text {
-        margin-top: 160px;
+        margin-top: 100px;
     }
     .beautify_text h2 {
         font-size: 35px;
     }
     .beautify_text p {
-        font-size: 18px;
-        line-height: 34px;
-        width: 466px;
-    }
+	font-size: 16px;
+	line-height: 30px;
+	width: 100%;
+}
 
     .beautify_text a {
         font-size: 14px;
@@ -593,7 +620,21 @@
     .inspiration_text p {
         font-size: 17px;
     }
-
+    .rangeRow{
+        display: flex;
+        align-items: center;
+    }
+    .rangeRow .col-lg-4{
+        width: 33%;
+    }
+    .overly_image button i {
+	font-size: 20px;
+	padding: 7px;
+    }
+    .overly_image button {
+	margin-top: 8px;
+	margin-right: 10px;
+}
     /* =====================Range Section Ending=================== */
 
     /* =====================Works Section Starting=================== */

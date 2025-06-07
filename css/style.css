@@ -525,4 +525,10 @@ footer {
     display: flex;
     gap: 21px;
 }
+
+.footer_two_img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 /* =====================Footer Ending=================== */
