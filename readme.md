@@ -49,5 +49,15 @@ cd Furniture-Project
 Simply double-click the index.html file or open it using your preferred web browser to view the landing page.
 
 
+📬 Contact
+
+For any inquiries or feedback:
+
+Email: [your.email@example.com]
+
+LinkedIn: Your LinkedIn Profile
+
+Twitter: @yourhandle
+
 
 
