@@ -14,3 +14,40 @@ Clean Layout: Organized sections including Hero, About, Products, Testimonials, 
 Interactive Elements: Incorporates hover effects and interactive buttons for enhanced user engagement.
 
 
+🛠️ Technologies Used
+
+HTML5: Structuring the content semantically.
+
+CSS3: Styling and layout enhancements.
+
+Bootstrap 5: Responsive design and pre-built components.
+
+
+📁 Project Structure
+
+Furniture-Project/
+├── css/
+│   └── style.css
+├── images/
+│   └── [project images]
+├── index.html
+
+📌 How to Use
+
+1. Clone the Repository:
+
+git clone https://github.com/Munna-Scriptz/Furniture-Project.git
+
+
+2. Navigate to the Project Directory:
+
+cd Furniture-Project
+
+
+3. Open index.html in Your Browser:
+
+Simply double-click the index.html file or open it using your preferred web browser to view the landing page.
+
+
+
+
